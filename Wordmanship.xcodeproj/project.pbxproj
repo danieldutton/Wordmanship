@@ -14,6 +14,8 @@
 		A5DDF28C266B8D6F00436888 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDF289266B8D6F00436888 /* Word.swift */; };
 		A5DDF28D266B8D6F00436888 /* Pronunciation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDF28A266B8D6F00436888 /* Pronunciation.swift */; };
 		A5DDF28E266B8D6F00436888 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDF28B266B8D6F00436888 /* Result.swift */; };
+		A5DDF294266B8EEE00436888 /* UKEnglishWordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDF292266B8EEE00436888 /* UKEnglishWordService.swift */; };
+		A5DDF295266B8EEE00436888 /* WordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDF293266B8EEE00436888 /* WordService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A5DDF289266B8D6F00436888 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		A5DDF28A266B8D6F00436888 /* Pronunciation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pronunciation.swift; sourceTree = "<group>"; };
 		A5DDF28B266B8D6F00436888 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A5DDF292266B8EEE00436888 /* UKEnglishWordService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UKEnglishWordService.swift; sourceTree = "<group>"; };
+		A5DDF293266B8EEE00436888 /* WordService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 		A5DDF28F266B8DC800436888 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A5DDF292266B8EEE00436888 /* UKEnglishWordService.swift */,
+				A5DDF293266B8EEE00436888 /* WordService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DDF294266B8EEE00436888 /* UKEnglishWordService.swift in Sources */,
 				A5DDF27C266B8C6000436888 /* ContentView.swift in Sources */,
 				A5DDF28E266B8D6F00436888 /* Result.swift in Sources */,
+				A5DDF295266B8EEE00436888 /* WordService.swift in Sources */,
 				A5DDF27A266B8C6000436888 /* WordmanshipApp.swift in Sources */,
 				A5DDF28C266B8D6F00436888 /* Word.swift in Sources */,
 				A5DDF28D266B8D6F00436888 /* Pronunciation.swift in Sources */,
