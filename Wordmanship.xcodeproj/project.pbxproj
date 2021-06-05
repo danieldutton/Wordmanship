@@ -59,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				A5DDF288266B8D6500436888 /* Model */,
+				A5DDF290266B8DD500436888 /* View */,
+				A5DDF291266B8DDC00436888 /* ViewModel */,
+				A5DDF28F266B8DC800436888 /* Services */,
 				A5DDF279266B8C6000436888 /* WordmanshipApp.swift */,
-				A5DDF27B266B8C6000436888 /* ContentView.swift */,
 				A5DDF27D266B8C8600436888 /* Assets.xcassets */,
 				A5DDF282266B8C8600436888 /* Info.plist */,
 				A5DDF27F266B8C8600436888 /* Preview Content */,
@@ -84,6 +86,28 @@
 				A5DDF289266B8D6F00436888 /* Word.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A5DDF28F266B8DC800436888 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5DDF290266B8DD500436888 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5DDF27B266B8C6000436888 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5DDF291266B8DDC00436888 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
