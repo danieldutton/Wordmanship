@@ -16,6 +16,7 @@
 		A5DDF28E266B8D6F00436888 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDF28B266B8D6F00436888 /* Result.swift */; };
 		A5DDF294266B8EEE00436888 /* UKEnglishWordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDF292266B8EEE00436888 /* UKEnglishWordService.swift */; };
 		A5DDF295266B8EEE00436888 /* WordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDF293266B8EEE00436888 /* WordService.swift */; };
+		A5DDF297266B904100436888 /* WordmanshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDF296266B904100436888 /* WordmanshipViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A5DDF28B266B8D6F00436888 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		A5DDF292266B8EEE00436888 /* UKEnglishWordService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UKEnglishWordService.swift; sourceTree = "<group>"; };
 		A5DDF293266B8EEE00436888 /* WordService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordService.swift; sourceTree = "<group>"; };
+		A5DDF296266B904100436888 /* WordmanshipViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordmanshipViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		A5DDF291266B8DDC00436888 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A5DDF296266B904100436888 /* WordmanshipViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				A5DDF28E266B8D6F00436888 /* Result.swift in Sources */,
 				A5DDF295266B8EEE00436888 /* WordService.swift in Sources */,
 				A5DDF27A266B8C6000436888 /* WordmanshipApp.swift in Sources */,
+				A5DDF297266B904100436888 /* WordmanshipViewModel.swift in Sources */,
 				A5DDF28C266B8D6F00436888 /* Word.swift in Sources */,
 				A5DDF28D266B8D6F00436888 /* Pronunciation.swift in Sources */,
 			);
